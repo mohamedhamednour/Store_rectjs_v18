@@ -1,9 +1,9 @@
 import React from 'react'
 import Store_context from "./UseContext";
-
+ //filte by checkbos 
 const Filre_check = () => {
 
-      
+      //get function fikter fromt store
     const { top_rate , top_count} = React.useContext(Store_context);
 
   return (

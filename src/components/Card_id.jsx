@@ -2,12 +2,12 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import axios from "axios";
-
+//get card by id 
 
 const Update = () => {
   const { id } = useParams();
   const [detils, setdetils] = React.useState([])  
-
+//get card id
   const Get_card = async () => {
     const { data } = await axios.get(
         `https://fakestoreapi.com/products/${id}` 
@@ -24,7 +24,7 @@ const Update = () => {
   React.useEffect(() => {
     Get_card();  //call function 
 
-  }, [detils]);
+  }, [detils]); // change data by id 
   return (
     <>
 

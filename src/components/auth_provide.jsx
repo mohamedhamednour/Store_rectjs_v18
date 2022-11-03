@@ -10,3 +10,6 @@ export const PrivateRoute = ({ children }) => {
 
   return currentUser ? children : <Navigate to="sign_in" />;
 }
+
+
+//this a hire order function in react js it do if user login redirect to home page alse go to login page 

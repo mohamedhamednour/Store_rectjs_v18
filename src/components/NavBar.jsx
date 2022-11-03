@@ -7,6 +7,7 @@ const NavBar = () => {
   const { addcards, delateitem, currentUser, logout ,setCurrentUser } =
     React.useContext(Store_context);
     const navigate = useNavigate();
+    //logout function
     async function handleLogout() {
   
       try {

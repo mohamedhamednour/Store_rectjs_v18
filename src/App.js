@@ -17,6 +17,7 @@ useContext(Store_context);
 {/* Outlet this chage page by route dom   */}
 <Outlet />
 <hr />
+{/* //footer */}
 <footer class="p-4 bg-white  text-blue-500 rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
     <div class="sm:flex sm:items-center sm:justify-between text-blue-500">
         <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
